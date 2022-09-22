@@ -22,8 +22,8 @@ class Die:
         Args:
             self (Die): An instance of Die.
         """
-        self.value = 0
-        self.points = 0
+        self.value = int()
+        self.points = int()
 
 # 3) Create the roll(self) method. Use the following method comment.
     def roll(self):
