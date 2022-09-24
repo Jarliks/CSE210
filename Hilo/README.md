@@ -4,8 +4,6 @@
 
 # Program: Hilo
 
-################################################################################
-
 ### Assignment
 
 Hilo is played according to the following rules.
