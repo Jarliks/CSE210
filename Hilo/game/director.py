@@ -84,6 +84,9 @@ class Director:
             print("Error: improper input saved")
 
         print(f"Your score is: {self.total_points}\n")
+        if self.total_points <= 0:
+            self.game_active = False
+            print("You have run out of points. Game Over.")
         self.card_flipped = 0
 
     def get_input_continue(self):
