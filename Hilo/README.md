@@ -1,10 +1,14 @@
-Author: Alec Mateski
-Class: CSE 210
-Program: Hilo
+# Author: Alec Mateski
+
+# Class: CSE 210
+
+# Program: Hilo
 
 ################################################################################
 
-# Hilo is played according to the following rules.
+### Assignment
+
+Hilo is played according to the following rules.
 
     The player starts the game with 300 points.
     Individual cards are represented as a number from 1 to 13.
