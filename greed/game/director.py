@@ -66,7 +66,11 @@ class Director:
             if player.get_position().equals(thing.get_position()):
                 value = thing.get_value()
                 self._score += value
-                new_position = Point(random.randint(1, 60 - 1), 1)
+                
+                x = random.randint(1, 60 - 1)
+                new_position = Point(x, 1)
+                new_position = new_position.scale(15)
+
                 thing.set_position(new_position)
                 new_color = Color(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
                 thing.set_color(new_color)
