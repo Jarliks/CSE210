@@ -51,7 +51,7 @@ class Snake(Actor):
         for i in range(1):
             position = Point(x - i * constants.CELL_SIZE, y)
             velocity = Point(1 * constants.CELL_SIZE, 0)
-            text = "8" if i == 0 else "#"
+            text = "@" if i == 0 else "#"
             color = self._color
             
             segment = Actor()
